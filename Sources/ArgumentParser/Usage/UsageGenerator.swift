@@ -171,8 +171,8 @@ extension ErrorMessageGenerator {
       
     case .notImplemented:
       return notImplementedMessage
-    case .invalidState:
-      return invalidState
+    case .invalidState(let file, let line):
+      return "\(invalidState) [\(file):\(line)]"
     case .unknownOption(let o, let n):
       return unknownOptionMessage(origin: o, name: n)
     case .missingValueForOption(let o, let n):

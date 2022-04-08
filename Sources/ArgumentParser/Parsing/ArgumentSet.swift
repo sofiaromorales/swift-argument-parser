@@ -141,7 +141,7 @@ extension ArgumentSet {
     let help = ArgumentDefinition.Help(options: [.isOptional, .isRepeating], help: help, key: key)
     let arg = ArgumentDefinition(kind: .name(key: key, specification: name), help: help, completion: .default, update: .nullary({ (origin, name, values) in
       guard let a = values.element(forKey: key)?.value, let b = a as? Int else {
-        throw ParserError.invalidState
+        throw ParserError.invalid()
       }
       values.set(b + 1, forKey: key, inputOrigin: origin)
     }), initial: { origin, values in

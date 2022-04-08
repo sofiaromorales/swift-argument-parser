@@ -130,7 +130,7 @@ extension CommandParser {
     }
     
     guard let lastCommand = decodedArguments.lazy.compactMap({ $0.command }).last else {
-      throw ParserError.invalidState
+      throw ParserError.invalid()
     }
     
     return lastCommand
@@ -202,7 +202,7 @@ extension CommandParser {
       // No command was found, so fall back to the default subcommand.
       if let defaultSubcommand = currentNode.element.configuration.defaultSubcommand {
         guard let subcommandNode = currentNode.firstChild(equalTo: defaultSubcommand) else {
-          throw ParserError.invalidState
+          throw ParserError.invalid()
         }
         currentNode = subcommandNode
         continue
@@ -231,7 +231,7 @@ extension CommandParser {
     } catch let error as ParserError {
       return .failure(CommandError(commandStack: [commandTree.element], parserError: error))
     } catch {
-      return .failure(CommandError(commandStack: [commandTree.element], parserError: .invalidState))
+      return .failure(CommandError(commandStack: [commandTree.element], parserError: .invalid()))
     }
     
     do {
@@ -256,7 +256,7 @@ extension CommandParser {
         commandStack: commandStack,
         visibility: helpRequest.visibility))
     } catch {
-      return .failure(CommandError(commandStack: commandStack, parserError: .invalidState))
+      return .failure(CommandError(commandStack: commandStack, parserError: .invalid()))
     }
   }
 }
@@ -313,13 +313,13 @@ extension CommandParser {
       if subcommandName == "--" { break }
       
       guard let nextCommandNode = current.firstChild(withName: subcommandName)
-        else { throw ParserError.invalidState }
+        else { throw ParserError.invalid() }
       current = nextCommandNode
     }
     
     // Some kind of argument name is the next required element
     guard let argToMatch = args.popFirst() else {
-      throw ParserError.invalidState
+      throw ParserError.invalid()
     }
     // Completion text is optional here
     let completionValues = Array(args)
@@ -335,17 +335,17 @@ extension CommandParser {
     case .option(let parsed):
       guard let matchedArgument = argset.first(matching: parsed),
         case .custom(let f) = matchedArgument.completion.kind
-        else { throw ParserError.invalidState }
+        else { throw ParserError.invalid() }
       completionFunction = f
 
     case .value(let str):
       guard let matchedArgument = argset.firstPositional(named: str),
         case .custom(let f) = matchedArgument.completion.kind
-        else { throw ParserError.invalidState }
+        else { throw ParserError.invalid() }
       completionFunction = f
       
     case .terminator:
-      throw ParserError.invalidState
+      throw ParserError.invalid()
     }
     
     // Parsing and retrieval successful! We don't want to continue with any

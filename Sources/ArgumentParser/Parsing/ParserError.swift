@@ -20,7 +20,7 @@ enum ParserError: Error {
   case unsupportedShell(String? = nil)
   
   case notImplemented
-  case invalidState
+  case invalidState(file: StaticString, line: UInt)
   case unknownOption(InputOrigin.Element, Name)
   case invalidOption(String)
   case nonAlphanumericShortOption(Character)
@@ -35,6 +35,10 @@ enum ParserError: Error {
   case missingSubcommand
   case userValidationError(Error)
   case noArguments(Error)
+  
+  static func invalid(file: StaticString = #fileID, line: UInt = #line) -> Self {
+    .invalidState(file: file, line: line)
+  }
 }
 
 /// These are errors used internally to the parsing, and will not be exposed to the help generation.

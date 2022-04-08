@@ -108,7 +108,7 @@ extension ParsableArguments {
       return result
     default:
       // TODO: this should be a "wrong command" message
-      throw ParserError.invalidState
+      throw ParserError.invalid()
     }
   }
   

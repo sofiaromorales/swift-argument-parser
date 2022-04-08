@@ -162,7 +162,7 @@ struct SingleValueDecoder: Decoder {
       throw ParserError.noValue(forKey: InputKey(rawValue: codingPath.last!.stringValue))
     }
     guard let a = e.value as? [Any] else {
-      throw ParserError.invalidState
+      throw ParserError.invalid()
     }
     return UnkeyedContainer(codingPath: codingPath, parsedElement: e, array: ArrayWrapper(a))
   }
@@ -173,7 +173,7 @@ struct SingleValueDecoder: Decoder {
   
   func previousValue<T>(_ type: T.Type) throws -> T {
     guard let previous = underlying.previouslyDecoded.first(where: { type == $0.type })
-      else { throw ParserError.invalidState }
+      else { throw ParserError.invalid() }
     return previous.value as! T
   }
 

@@ -44,7 +44,7 @@ internal protocol DecodableParsedWrapper: ParsedWrapper
 extension ParsedWrapper {
   init(_decoder: Decoder) throws {
     guard let d = _decoder as? SingleValueDecoder else {
-      throw ParserError.invalidState
+      throw ParserError.invalid()
     }
     guard let value = d.parsedElement?.value as? Value else {
       throw ParserError.noValue(forKey: d.parsedElement?.key ?? d.key)
