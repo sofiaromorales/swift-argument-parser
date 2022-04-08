@@ -256,6 +256,7 @@ extension CommandParser {
         commandStack: commandStack,
         visibility: helpRequest.visibility))
     } catch {
+      dump(error)
       return .failure(CommandError(commandStack: commandStack, parserError: .invalid()))
     }
   }
