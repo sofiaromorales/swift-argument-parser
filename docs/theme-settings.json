@@ -1,0 +1,11 @@
+{
+  "meta": {},
+  "theme": {},
+  "features": {
+    "docs": {
+      "quickNavigation": {
+        "enable": true
+      }
+    }
+  }
+}
