@@ -1,0 +1,163 @@
+{
+  "graphRepresentation" : "",
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/CommandInfoV0"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/CommandInfoV0\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "ArgumentParserToolInfo"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/CommandInfoV0\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ]
+, 
+"references": {
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo": {
+  "abstract" : [
+
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ArgumentParserToolInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/CommandInfoV0": {
+  "abstract" : [
+    {
+      "text" : "All information about a particular command, including arguments and",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "subcommands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CommandInfoV0"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/CommandInfoV0",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CommandInfoV0"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CommandInfoV0",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/commandinfov0"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/CommandInfoV0/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/CommandInfoV0\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/commandinfov0\/!=(_:_:)"
+}
+}
+}

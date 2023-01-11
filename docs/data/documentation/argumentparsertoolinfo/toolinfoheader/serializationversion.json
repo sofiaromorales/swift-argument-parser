@@ -1,0 +1,219 @@
+{
+  "abstract" : [
+    {
+      "text" : "A sentinel value indicating the version of the ToolInfo struct used to",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "generate the serialized form.",
+      "type" : "text"
+    }
+  ],
+  "graphRepresentation" : "",
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ToolInfoHeader"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ToolInfoHeader\/serializationVersion"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:22ArgumentParserToolInfo0cD6HeaderV20serializationVersionSivp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "serializationVersion"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ArgumentParserToolInfo"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "serializationVersion"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "serializationVersion"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Si",
+              "text" : "Int"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/argumentparsertoolinfo\/toolinfoheader\/serializationversion"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo": {
+  "abstract" : [
+
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ArgumentParserToolInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ToolInfoHeader": {
+  "abstract" : [
+    {
+      "text" : "Header used to validate serialization version of an encoded ToolInfo struct.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ToolInfoHeader"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ToolInfoHeader",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ToolInfoHeader"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ToolInfoHeader",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/toolinfoheader"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ToolInfoHeader/serializationVersion": {
+  "abstract" : [
+    {
+      "text" : "A sentinel value indicating the version of the ToolInfo struct used to",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "generate the serialized form.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "serializationVersion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ToolInfoHeader\/serializationVersion",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "serializationVersion",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/toolinfoheader\/serializationversion"
+}
+}
+}

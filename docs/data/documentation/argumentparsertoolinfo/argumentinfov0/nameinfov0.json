@@ -1,0 +1,489 @@
+{
+  "abstract" : [
+    {
+      "text" : "Information about an argument’s name.",
+      "type" : "text"
+    }
+  ],
+  "graphRepresentation" : "",
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:22ArgumentParserToolInfo0aD2V0V04NamedE0V",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "NameInfoV0"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ArgumentParserToolInfo"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "NameInfoV0"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "ArgumentInfoV0.NameInfoV0"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "NameInfoV0"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/Se",
+        "doc:\/\/org.swift.ArgumentParser\/SE",
+        "doc:\/\/org.swift.ArgumentParser\/SQ",
+        "doc:\/\/org.swift.ArgumentParser\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/init(from:)",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/init(kind:name:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/kind",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/name"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/KindV0"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/nameinfov0"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.swift.ArgumentParser/SE": {
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://org.swift.ArgumentParser/SH": {
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://org.swift.ArgumentParser/SQ": {
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.swift.ArgumentParser/Se": {
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo": {
+  "abstract" : [
+
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ArgumentParserToolInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0": {
+  "abstract" : [
+    {
+      "text" : "All information about a particular argument, including display names and",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "options.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ArgumentInfoV0"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ArgumentInfoV0"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ArgumentInfoV0",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/NameInfoV0": {
+  "abstract" : [
+    {
+      "text" : "Information about an argument’s name.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NameInfoV0"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NameInfoV0"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ArgumentInfoV0.NameInfoV0",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/nameinfov0"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/NameInfoV0/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/nameinfov0\/equatable-implementations"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/NameInfoV0/KindV0": {
+  "abstract" : [
+    {
+      "text" : "Kind of prefix of an argument’s name.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "KindV0"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/KindV0",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "KindV0"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ArgumentInfoV0.NameInfoV0.KindV0",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/nameinfov0\/kindv0"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/NameInfoV0/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/nameinfov0\/init(from:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/NameInfoV0/init(kind:name:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "kind"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22ArgumentParserToolInfo0aD2V0V04NamedE0V",
+      "text" : "NameInfoV0"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22ArgumentParserToolInfo0aD2V0V04NamedE0V04KindE0O",
+      "text" : "KindV0"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/init(kind:name:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(kind:name:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/nameinfov0\/init(kind:name:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/NameInfoV0/kind": {
+  "abstract" : [
+    {
+      "text" : "Kind of prefix the NameInfoV0 describes.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kind"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:22ArgumentParserToolInfo0aD2V0V04NamedE0V04KindE0O",
+      "text" : "KindV0"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/kind",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "kind",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/nameinfov0\/kind"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/NameInfoV0/name": {
+  "abstract" : [
+    {
+      "text" : "Single or multi-character name of the argument.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/NameInfoV0\/name",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "name",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/nameinfov0\/name"
+}
+}
+}

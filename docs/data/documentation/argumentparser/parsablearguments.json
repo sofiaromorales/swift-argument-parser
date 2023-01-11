@@ -1,0 +1,1263 @@
+{
+  "abstract" : [
+    {
+      "text" : "A type that can be parsed from a program’s command-line arguments.",
+      "type" : "text"
+    }
+  ],
+  "graphRepresentation" : "",
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14ArgumentParser17ParsableArgumentsP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ParsableArguments"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ArgumentParser"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ParsableArguments"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "ParsableArguments"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ParsableArguments"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Se",
+              "text" : "Decodable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "When you implement a ",
+              "type" : "text"
+            },
+            {
+              "code" : "ParsableArguments",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " type, all properties must be declared with",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "one of the four property wrappers provided by the ",
+              "type" : "text"
+            },
+            {
+              "code" : "ArgumentParser",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " library.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/Se"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/AsyncParsableCommand",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherited By",
+      "type" : "inheritedBy"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/DeclaringArguments",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Flag",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/OptionGroup"
+      ],
+      "title" : "Arguments, Options, and Flags"
+    }
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/validate()-5r0ge"
+      ],
+      "title" : "Handling Validation"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/parse(_:)",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/parseOrExit(_:)"
+      ],
+      "title" : "Parsing a Type"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/exit(withError:)"
+      ],
+      "title" : "Exiting a Program"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/helpMessage(includeHidden:columns:)"
+      ],
+      "title" : "Generating Help Text"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/message(for:)",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/fullMessage(for:)",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/exitCode(for:)"
+      ],
+      "title" : "Handling Errors"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/completionScript(for:)",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/CompletionShell"
+      ],
+      "title" : "Generating Completion Scripts"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/init()"
+      ],
+      "title" : "Infrequently Used APIs"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/helpMessage(columns:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/argumentparser\/parsablearguments"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.swift.ArgumentParser/Se": {
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser": {
+  "abstract" : [
+    {
+      "text" : "Straightforward, type-safe argument parsing for Swift.",
+      "type" : "text"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ArgumentParser",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument": {
+  "abstract" : [
+    {
+      "text" : "A property wrapper that represents a positional command-line argument.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Argument"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Argument"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Argument",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/argument"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/AsyncParsableCommand": {
+  "abstract" : [
+    {
+      "text" : "A type that can be executed asynchronously, as part of a nested tree of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "commands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncParsableCommand"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/AsyncParsableCommand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncParsableCommand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncParsableCommand",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/asyncparsablecommand"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/CompletionShell": {
+  "abstract" : [
+    {
+      "text" : "A shell for which the parser can generate a completion script.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CompletionShell"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/CompletionShell",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CompletionShell"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CompletionShell",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/completionshell"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/DeclaringArguments": {
+  "abstract" : [
+    {
+      "text" : "Use the ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Argument",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Option",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Flag",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " property wrappers to declare the command-line interface for your command.",
+      "type" : "text"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/DeclaringArguments",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Declaring Arguments, Options, and Flags",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/declaringarguments"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Flag": {
+  "abstract" : [
+    {
+      "text" : "A property wrapper that represents a command-line flag.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Flag"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Flag",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Flag"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Flag",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/flag"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option": {
+  "abstract" : [
+    {
+      "text" : "A property wrapper that represents a command-line option.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Option"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Option"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Option",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/OptionGroup": {
+  "abstract" : [
+    {
+      "text" : "A wrapper that transparently includes a parsable type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OptionGroup"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/OptionGroup",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OptionGroup"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OptionGroup",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/optiongroup"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments": {
+  "abstract" : [
+    {
+      "text" : "A type that can be parsed from a program’s command-line arguments.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsableArguments",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/completionScript(for:)": {
+  "abstract" : [
+    {
+      "text" : "Returns a shell completion script for the specified shell.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "completionScript"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser15CompletionShellV",
+      "text" : "CompletionShell"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/completionScript(for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "completionScript(for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/completionscript(for:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/exit(withError:)": {
+  "abstract" : [
+    {
+      "text" : "Terminates execution with a message and exit code that is appropriate",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "for the given error.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "exit"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "withError"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5NeverO",
+      "text" : "Never"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/exit(withError:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "exit(withError:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/exit(witherror:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/exitCode(for:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the exit code for the given error.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "exitCode"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser8ExitCodeV",
+      "text" : "ExitCode"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/exitCode(for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "exitCode(for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/exitcode(for:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/fullMessage(for:)": {
+  "abstract" : [
+    {
+      "text" : "Returns a full message for the given error, including usage information,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "if appropriate.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fullMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/fullMessage(for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fullMessage(for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/fullmessage(for:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/helpMessage(columns:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the text of the help screen for this type.",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "helpMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "columns"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/helpMessage(columns:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "helpMessage(columns:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/helpmessage(columns:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/helpMessage(includeHidden:columns:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the text of the help screen for this type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "helpMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "includeHidden"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "columns"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/helpMessage(includeHidden:columns:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "helpMessage(includeHidden:columns:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/helpmessage(includehidden:columns:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/init()": {
+  "abstract" : [
+    {
+      "text" : "Creates an instance of this parsable type using the definitions",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "given by each property’s wrapper.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/init()",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/init()"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/message(for:)": {
+  "abstract" : [
+    {
+      "text" : "Returns a brief message for the given error.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5ErrorP",
+      "text" : "Error"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/message(for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "message(for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/message(for:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/parse(_:)": {
+  "abstract" : [
+    {
+      "text" : "Parses a new instance of this type from command-line arguments.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "parse"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/parse(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "parse(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/parse(_:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/parseOrExit(_:)": {
+  "abstract" : [
+    {
+      "text" : "Parses a new instance of this type from command-line arguments or exits",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "with a relevant message.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "parseOrExit"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/parseOrExit(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "parseOrExit(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/parseorexit(_:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableArguments/validate()-5r0ge": {
+  "abstract" : [
+    {
+      "text" : "Validates the properties of the instance after parsing.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validate"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/validate()-5r0ge",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "validate()",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/validate()-5r0ge"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ParsableCommand": {
+  "abstract" : [
+    {
+      "text" : "A type that can be executed as part of a nested tree of commands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsableCommand"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsableCommand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsableCommand",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablecommand"
+}
+}
+}
