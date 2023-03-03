@@ -16,6 +16,7 @@
   "defaultImplementationsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument\/defaultValueDescription-2vi00",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument\/defaultValueDescription-940zv"
       ],
       "title" : "ExpressibleByArgument Implementations"
@@ -193,6 +194,84 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/expressiblebyargument"
 },
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ExpressibleByArgument/defaultValueDescription-2vi00": {
+  "abstract" : [
+    {
+      "text" : "The description of this instance to show as a default value in a",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "command-line tool’s help screen.",
+      "type" : "text"
+    }
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Self",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "RawRepresentable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defaultValueDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument\/defaultValueDescription-2vi00",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultValueDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/expressiblebyargument\/defaultvaluedescription-2vi00"
+},
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/ExpressibleByArgument/defaultValueDescription-2zydq": {
   "abstract" : [
     {
@@ -208,7 +287,7 @@
       "type" : "text"
     }
   ],
-  "defaultImplementations" : 1,
+  "defaultImplementations" : 2,
   "fragments" : [
     {
       "kind" : "keyword",

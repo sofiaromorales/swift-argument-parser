@@ -234,9 +234,15 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/OptionGroup\/init(visibility:)"
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/OptionGroup\/init(title:visibility:)"
       ],
       "title" : "Creating an Option Group"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/OptionGroup\/title"
+      ],
+      "title" : "Option Group Properties"
     },
     {
       "identifiers" : [
@@ -648,7 +654,7 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/optiongroup\/init(from:)"
 },
-"doc://org.swift.ArgumentParser/documentation/ArgumentParser/OptionGroup/init(visibility:)": {
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/OptionGroup/init(title:visibility:)": {
   "abstract" : [
     {
       "text" : "Creates a property that represents another parsable type, using the",
@@ -659,7 +665,7 @@
       "type" : "text"
     },
     {
-      "text" : "specified visibility.",
+      "text" : "specified title and visibility.",
       "type" : "text"
     }
   ],
@@ -671,6 +677,23 @@
     {
       "kind" : "text",
       "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "title"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
     },
     {
       "kind" : "externalParam",
@@ -691,12 +714,50 @@
     }
   ],
   "graphRepresentation" : "",
-  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/OptionGroup\/init(visibility:)",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/OptionGroup\/init(title:visibility:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(visibility:)",
+  "title" : "init(title:visibility:)",
   "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/optiongroup\/init(visibility:)"
+  "url" : "\/documentation\/argumentparser\/optiongroup\/init(title:visibility:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/OptionGroup/title": {
+  "abstract" : [
+    {
+      "text" : "The title to use in the help screen for this option group.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/OptionGroup\/title",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "title",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/optiongroup\/title"
 },
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/OptionGroup/wrappedValue": {
   "abstract" : [

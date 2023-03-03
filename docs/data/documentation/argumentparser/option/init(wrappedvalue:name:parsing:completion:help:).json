@@ -1,15 +1,9 @@
 {
-  "abstract" : [
-    {
-      "text" : "Creates a property with a default value provided by standard Swift default value syntax.",
-      "type" : "text"
-    }
-  ],
   "deprecationSummary" : [
     {
       "inlineContent" : [
         {
-          "text" : "Swap the order of your 'help' and 'completion' arguments.",
+          "text" : "\n    Swap the order of the 'help' and 'completion' arguments.\n    ",
           "type" : "text"
         }
       ],
@@ -303,6 +297,16 @@
   "sections" : [
 
   ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-4pl7h",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-6rqji"
+      ],
+      "title" : "Deprecated APIs"
+    }
+  ],
   "variants" : [
     {
       "paths" : [
@@ -482,10 +486,7 @@
 },
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:completion:help:)": {
   "abstract" : [
-    {
-      "text" : "Creates a property with a default value provided by standard Swift default value syntax.",
-      "type" : "text"
-    }
+
   ],
   "conformance" : {
     "availabilityPrefix" : [
@@ -622,6 +623,290 @@
   "title" : "init(wrappedValue:name:parsing:completion:help:)",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:completion:help:)"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:)-4pl7h": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sq",
+      "text" : "Optional"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completionACyqd__SgGAI_AA17NameSpecificationVAA06SingleE15ParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAIRszAA013ExpressibleByA0Rd__lufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
+      "text" : "SingleValueParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-4pl7h",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(wrappedValue:name:parsing:help:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-4pl7h"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:transform:)-6rqji": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sq",
+      "text" : "Optional"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completion9transformACyqd__SgGAJ_AA17NameSpecificationVAA06SingleE15ParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAJRszlufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
+      "text" : "SingleValueParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "transform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completion9transformACyqd__SgGAJ_AA17NameSpecificationVAA06SingleE15ParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAJRszlufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-6rqji",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(wrappedValue:name:parsing:help:completion:transform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:transform:)-6rqji"
 },
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/SingleValueParsingStrategy": {
   "abstract" : [

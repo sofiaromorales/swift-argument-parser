@@ -118,7 +118,7 @@
     {
       "identifiers" : [
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/init(from:)",
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/init(kind:shouldDisplay:isOptional:isRepeating:names:preferredName:valueName:defaultValue:allValues:abstract:discussion:)"
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/init(kind:shouldDisplay:sectionTitle:isOptional:isRepeating:names:preferredName:valueName:defaultValue:allValues:abstract:discussion:)"
       ],
       "title" : "Initializers"
     },
@@ -133,6 +133,7 @@
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/kind",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/names",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/preferredName",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/sectionTitle",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/shouldDisplay",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/valueName"
       ],
@@ -534,7 +535,7 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/init(from:)"
 },
-"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/init(kind:shouldDisplay:isOptional:isRepeating:names:preferredName:valueName:defaultValue:allValues:abstract:discussion:)": {
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/init(kind:shouldDisplay:sectionTitle:isOptional:isRepeating:names:preferredName:valueName:defaultValue:allValues:abstract:discussion:)": {
   "abstract" : [
 
   ],
@@ -580,6 +581,23 @@
     {
       "kind" : "text",
       "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "sectionTitle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
     },
     {
       "kind" : "externalParam",
@@ -736,12 +754,12 @@
     }
   ],
   "graphRepresentation" : "",
-  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/init(kind:shouldDisplay:isOptional:isRepeating:names:preferredName:valueName:defaultValue:allValues:abstract:discussion:)",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/init(kind:shouldDisplay:sectionTitle:isOptional:isRepeating:names:preferredName:valueName:defaultValue:allValues:abstract:discussion:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(kind:shouldDisplay:isOptional:isRepeating:names:preferredName:valueName:defaultValue:allValues:abstract:discussion:)",
+  "title" : "init(kind:shouldDisplay:sectionTitle:isOptional:isRepeating:names:preferredName:valueName:defaultValue:allValues:abstract:discussion:)",
   "type" : "topic",
-  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/init(kind:shoulddisplay:isoptional:isrepeating:names:preferredname:valuename:defaultvalue:allvalues:abstract:discussion:)"
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/init(kind:shoulddisplay:sectiontitle:isoptional:isrepeating:names:preferredname:valuename:defaultvalue:allvalues:abstract:discussion:)"
 },
 "doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/isOptional": {
   "abstract" : [
@@ -940,6 +958,48 @@
   "title" : "preferredName",
   "type" : "topic",
   "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/preferredname"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/sectionTitle": {
+  "abstract" : [
+    {
+      "text" : "Custom name of argument’s section.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sectionTitle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParserToolInfo\/ArgumentInfoV0\/sectionTitle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sectionTitle",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparsertoolinfo\/argumentinfov0\/sectiontitle"
 },
 "doc://org.swift.ArgumentParser/documentation/ArgumentParserToolInfo/ArgumentInfoV0/shouldDisplay": {
   "abstract" : [

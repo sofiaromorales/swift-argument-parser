@@ -306,9 +306,9 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(help:completion:)-6pqzn",
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(help:completion:transform:)",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(help:completion:)-4p94d",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(help:completion:transform:)-3fjtc",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(help:completion:transform:)-7yn32",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(wrappedValue:help:completion:)",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(wrappedValue:help:completion:transform:)"
       ],
@@ -326,11 +326,17 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init()",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(from:)",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/wrappedValue"
       ],
       "title" : "Infrequently Used APIs"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init()",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(help:completion:)-6pqzn"
+      ],
+      "title" : "Initializers"
     },
     {
       "generated" : true,
@@ -684,7 +690,7 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/argument\/init(help:completion:)-6pqzn"
 },
-"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(help:completion:transform:)": {
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(help:completion:transform:)-3fjtc": {
   "abstract" : [
     {
       "text" : "Creates a property with no default value, parsing with the given closure.",
@@ -770,17 +776,17 @@
     }
   ],
   "graphRepresentation" : "",
-  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(help:completion:transform:)",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(help:completion:transform:)-3fjtc",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "init(help:completion:transform:)",
   "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/argument\/init(help:completion:transform:)"
+  "url" : "\/documentation\/argumentparser\/argument\/init(help:completion:transform:)-3fjtc"
 },
-"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(parsing:help:completion:)": {
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(help:completion:transform:)-7yn32": {
   "abstract" : [
     {
-      "text" : "Creates a property with no default value that reads an array from zero or more arguments.",
+      "text" : "Creates an optional property that reads its value from an argument.",
       "type" : "text"
     }
   ],
@@ -795,7 +801,116 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "transform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A0V4help10completion9transformACyqd__SgGAA0A4HelpVSg_AA14CompletionKindVSgqd__SSKctcAGRszlufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Argument\/init(help:completion:transform:)-7yn32",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(help:completion:transform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/argument\/init(help:completion:transform:)-7yn32"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(parsing:help:completion:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a property with no default value that reads an array from zero or",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "more arguments.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -864,7 +979,15 @@
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(parsing:help:completion:transform:)": {
   "abstract" : [
     {
-      "text" : "Creates a property with no default value that reads an array from zero or more arguments, parsing each element with the given closure.",
+      "text" : "Creates a property with no default value that reads an array from zero or",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "more arguments, parsing each element with the given closure.",
       "type" : "text"
     }
   ],
@@ -879,7 +1002,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -963,8 +1086,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A0V7parsing4help10completion9transformACySayqd__GGAA0A20ArrayParsingStrategyV_AA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAHRszlufc7ElementL_qd__mfp",
-      "text" : "Element"
+      "preciseIdentifier" : "s:14ArgumentParser0A0V7parsing4help10completion9transformACySayqd__GGAA0A20ArrayParsingStrategyV_AA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAHRszlufc1TL_qd__mfp",
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -982,7 +1105,15 @@
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(wrappedValue:help:completion:)": {
   "abstract" : [
     {
-      "text" : "Creates a property with a default value provided by standard Swift default value syntax.",
+      "text" : "Creates a property with a default value provided by standard Swift default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "value syntax.",
       "type" : "text"
     }
   ],
@@ -1090,7 +1221,15 @@
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(wrappedValue:help:completion:transform:)": {
   "abstract" : [
     {
-      "text" : "Creates a property with a default value provided by standard Swift default value syntax, parsing with the given closure.",
+      "text" : "Creates a property with a default value provided by standard Swift default",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "value syntax, parsing with the given closure.",
       "type" : "text"
     }
   ],
@@ -1215,7 +1354,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -1231,12 +1370,21 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A0V5Valuexmfp",
-      "text" : "Value"
+      "preciseIdentifier" : "s:Sa",
+      "text" : "Array"
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completionACySayqd__GGAH_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAHRszAA013ExpressibleByA0Rd__lufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
     },
     {
       "kind" : "externalParam",
@@ -1324,7 +1472,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -1340,12 +1488,21 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A0V5Valuexmfp",
-      "text" : "Value"
+      "preciseIdentifier" : "s:Sa",
+      "text" : "Array"
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completion9transformACySayqd__GGAI_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAIRszlufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
     },
     {
       "kind" : "externalParam",
@@ -1425,8 +1582,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completion9transformACySayqd__GGAI_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAIRszlufc7ElementL_qd__mfp",
-      "text" : "Element"
+      "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completion9transformACySayqd__GGAI_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAIRszlufc1TL_qd__mfp",
+      "text" : "T"
     },
     {
       "kind" : "text",

@@ -33,7 +33,7 @@
       },
       {
         "kind" : "genericParameter",
-        "text" : "Element"
+        "text" : "T"
       },
       {
         "kind" : "text",
@@ -49,12 +49,21 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14ArgumentParser0A0V5Valuexmfp",
-        "text" : "Value"
+        "preciseIdentifier" : "s:Sa",
+        "text" : "Array"
       },
       {
         "kind" : "text",
-        "text" : ", "
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completionACySayqd__GGAH_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAHRszAA013ExpressibleByA0Rd__lufc1TL_qd__mfp",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ">, "
       },
       {
         "kind" : "externalParam",
@@ -139,7 +148,7 @@
             },
             {
               "kind" : "genericParameter",
-              "text" : "Element"
+              "text" : "T"
             },
             {
               "kind" : "text",
@@ -155,12 +164,21 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14ArgumentParser0A0V5Valuexmfp",
-              "text" : "Value"
+              "preciseIdentifier" : "s:Sa",
+              "text" : "Array"
             },
             {
               "kind" : "text",
-              "text" : ", "
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completionACySayqd__GGAH_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAHRszAA013ExpressibleByA0Rd__lufc1TL_qd__mfp",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : ">, "
             },
             {
               "kind" : "externalParam",
@@ -251,7 +269,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "Element"
+              "text" : "T"
             },
             {
               "kind" : "text",
@@ -259,7 +277,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "Element"
+              "text" : "T"
             },
             {
               "kind" : "text",
@@ -298,7 +316,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The behavior to use when parsing multiple values",
+                  "text" : "The behavior to use when parsing multiple values from",
                   "type" : "text"
                 },
                 {
@@ -306,7 +324,7 @@
                   "type" : "text"
                 },
                 {
-                  "text" : "from the command-line arguments.",
+                  "text" : "the command-line arguments.",
                   "type" : "text"
                 }
               ],
@@ -328,6 +346,20 @@
             }
           ],
           "name" : "help"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Kind of completion provided to the user for this option.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "completion"
         }
       ]
     }
@@ -419,7 +451,15 @@
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(parsing:help:completion:)": {
   "abstract" : [
     {
-      "text" : "Creates a property with no default value that reads an array from zero or more arguments.",
+      "text" : "Creates a property with no default value that reads an array from zero or",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "more arguments.",
       "type" : "text"
     }
   ],
@@ -434,7 +474,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -503,7 +543,15 @@
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Argument/init(parsing:help:completion:transform:)": {
   "abstract" : [
     {
-      "text" : "Creates a property with no default value that reads an array from zero or more arguments, parsing each element with the given closure.",
+      "text" : "Creates a property with no default value that reads an array from zero or",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "more arguments, parsing each element with the given closure.",
       "type" : "text"
     }
   ],
@@ -518,7 +566,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -602,8 +650,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A0V7parsing4help10completion9transformACySayqd__GGAA0A20ArrayParsingStrategyV_AA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAHRszlufc7ElementL_qd__mfp",
-      "text" : "Element"
+      "preciseIdentifier" : "s:14ArgumentParser0A0V7parsing4help10completion9transformACySayqd__GGAA0A20ArrayParsingStrategyV_AA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAHRszlufc1TL_qd__mfp",
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -636,7 +684,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -652,12 +700,21 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A0V5Valuexmfp",
-      "text" : "Value"
+      "preciseIdentifier" : "s:Sa",
+      "text" : "Array"
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completionACySayqd__GGAH_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAHRszAA013ExpressibleByA0Rd__lufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
     },
     {
       "kind" : "externalParam",
@@ -745,7 +802,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -761,12 +818,21 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A0V5Valuexmfp",
-      "text" : "Value"
+      "preciseIdentifier" : "s:Sa",
+      "text" : "Array"
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completion9transformACySayqd__GGAI_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAIRszlufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
     },
     {
       "kind" : "externalParam",
@@ -846,8 +912,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completion9transformACySayqd__GGAI_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAIRszlufc7ElementL_qd__mfp",
-      "text" : "Element"
+      "preciseIdentifier" : "s:14ArgumentParser0A0V12wrappedValue7parsing4help10completion9transformACySayqd__GGAI_AA0A20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAIRszlufc1TL_qd__mfp",
+      "text" : "T"
     },
     {
       "kind" : "text",

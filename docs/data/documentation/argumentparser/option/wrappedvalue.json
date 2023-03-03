@@ -124,7 +124,6 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init()",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(from:)"
       ],
       "title" : "Infrequently Used APIs"
@@ -193,68 +192,6 @@
   "title" : "Option",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/option"
-},
-"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init()": {
-  "abstract" : [
-    {
-      "text" : "This initializer works around a quirk of property wrappers, where the",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "compiler will not see no-argument initializers in extensions. Explicitly",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "marking this initializer unavailable means that when ",
-      "type" : "text"
-    },
-    {
-      "code" : "Value",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " conforms to",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "code" : "ExpressibleByArgument",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ", that overload will be selected instead.",
-      "type" : "text"
-    }
-  ],
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "()"
-    }
-  ],
-  "graphRepresentation" : "",
-  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init()",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init()",
-  "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/option\/init()"
 },
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(from:)": {
   "abstract" : [

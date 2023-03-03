@@ -140,7 +140,52 @@
         {
           "inlineContent" : [
             {
-              "text" : "For example, for a parsable type defined as following:",
+              "code" : "remaining",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " is the default parsing strategy for argument arrays.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "For example, the ",
+              "type" : "text"
+            },
+            {
+              "code" : "Example",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " command defined below has a ",
+              "type" : "text"
+            },
+            {
+              "code" : "words",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " array that",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "uses the ",
+              "type" : "text"
+            },
+            {
+              "code" : "remaining",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " parsing strategy:",
               "type" : "text"
             }
           ],
@@ -148,9 +193,16 @@
         },
         {
           "code" : [
-            "struct Options: ParsableArguments {",
-            "    @Flag var verbose: Bool",
-            "    @Argument(parsing: .remaining) var words: [String]",
+            "@main",
+            "struct Example: ParsableCommand {",
+            "    @Flag var verbose = false",
+            "",
+            "    @Argument(parsing: .remaining)",
+            "    var words: [String]",
+            "",
+            "    func run() {",
+            "        print(words.joined(separator: \"\\n\"))",
+            "    }",
             "}"
           ],
           "syntax" : null,
@@ -159,23 +211,46 @@
         {
           "inlineContent" : [
             {
-              "text" : "Parsing the input ",
+              "text" : "Any non-dash-prefixed inputs will be captured in the ",
               "type" : "text"
             },
             {
-              "code" : "--verbose one two",
+              "code" : "words",
               "type" : "codeVoice"
             },
             {
-              "text" : " or ",
+              "text" : " array.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "$ example --verbose one two",
+            "one",
+            "two",
+            "$ example one two --verbose",
+            "one",
+            "two",
+            "$ example one two --other",
+            "Error: Unknown option '--other'"
+          ],
+          "syntax" : null,
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "If a user uses the ",
               "type" : "text"
             },
             {
-              "code" : "one two --verbose",
+              "code" : "--",
               "type" : "codeVoice"
             },
             {
-              "text" : " would result",
+              "text" : " terminator in their input, all following inputs",
               "type" : "text"
             },
             {
@@ -183,31 +258,11 @@
               "type" : "text"
             },
             {
-              "text" : "in ",
+              "text" : "will be captured in ",
               "type" : "text"
             },
             {
-              "code" : "Options(verbose: true, words: [\"one\", \"two\"])",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : ". Parsing the input",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "code" : "one two --other",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " would result in an unknown option error for ",
-              "type" : "text"
-            },
-            {
-              "code" : "--other",
+              "code" : "words",
               "type" : "codeVoice"
             },
             {
@@ -218,13 +273,15 @@
           "type" : "paragraph"
         },
         {
-          "inlineContent" : [
-            {
-              "text" : "This is the default strategy for parsing argument arrays.",
-              "type" : "text"
-            }
+          "code" : [
+            "$ example one two -- --verbose --other",
+            "one",
+            "two",
+            "--verbose",
+            "--other"
           ],
-          "type" : "paragraph"
+          "syntax" : null,
+          "type" : "codeListing"
         }
       ],
       "kind" : "content"
@@ -237,6 +294,17 @@
   },
   "sections" : [
 
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ArgumentArrayParsingStrategy\/allUnrecognized",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ArgumentArrayParsingStrategy\/postTerminator",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ArgumentArrayParsingStrategy\/captureForPassthrough"
+      ],
+      "title" : "Parsing Strategies"
+    }
   ],
   "variants" : [
     {
@@ -344,6 +412,176 @@
   "title" : "ArgumentArrayParsingStrategy",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/argumentarrayparsingstrategy"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ArgumentArrayParsingStrategy/allUnrecognized": {
+  "abstract" : [
+    {
+      "text" : "After parsing, capture all unrecognized inputs in this argument array.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "allUnrecognized"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A20ArrayParsingStrategyV",
+      "text" : "ArgumentArrayParsingStrategy"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ArgumentArrayParsingStrategy\/allUnrecognized",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "allUnrecognized",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/argumentarrayparsingstrategy\/allunrecognized"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ArgumentArrayParsingStrategy/captureForPassthrough": {
+  "abstract" : [
+    {
+      "text" : "Parse all remaining inputs after parsing any known options or flags,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "including dash-prefixed inputs and the ",
+      "type" : "text"
+    },
+    {
+      "code" : "--",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " terminator.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "captureForPassthrough"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A20ArrayParsingStrategyV",
+      "text" : "ArgumentArrayParsingStrategy"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ArgumentArrayParsingStrategy\/captureForPassthrough",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "captureForPassthrough",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/argumentarrayparsingstrategy\/captureforpassthrough"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/ArgumentArrayParsingStrategy/postTerminator": {
+  "abstract" : [
+    {
+      "text" : "Before parsing, capture all inputs that follow the ",
+      "type" : "text"
+    },
+    {
+      "code" : "--",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " terminator in this",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "argument array.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "postTerminator"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A20ArrayParsingStrategyV",
+      "text" : "ArgumentArrayParsingStrategy"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/ArgumentArrayParsingStrategy\/postTerminator",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "postTerminator",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/argumentarrayparsingstrategy\/postterminator"
 },
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/ArgumentArrayParsingStrategy/remaining": {
   "abstract" : [

@@ -143,16 +143,6 @@
   "sections" : [
 
   ],
-  "seeAlsoSections" : [
-    {
-      "generated" : true,
-      "identifiers" : [
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(from:)",
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/wrappedValue"
-      ],
-      "title" : "Infrequently Used APIs"
-    }
-  ],
   "variants" : [
     {
       "paths" : [
@@ -278,87 +268,6 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/option\/init()"
-},
-"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(from:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s7DecoderP",
-      "text" : "Decoder"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
-    }
-  ],
-  "graphRepresentation" : "",
-  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(from:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init(from:)",
-  "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/option\/init(from:)"
-},
-"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/wrappedValue": {
-  "abstract" : [
-    {
-      "text" : "The value presented by this property wrapper.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "wrappedValue"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser6OptionV5Valuexmfp",
-      "text" : "Value"
-    }
-  ],
-  "graphRepresentation" : "",
-  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/wrappedValue",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "wrappedValue",
-  "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/option\/wrappedvalue"
 }
 }
 }

@@ -41,7 +41,7 @@
       },
       {
         "kind" : "genericParameter",
-        "text" : "Element"
+        "text" : "T"
       },
       {
         "kind" : "text",
@@ -53,16 +53,25 @@
       },
       {
         "kind" : "text",
-        "text" : ": ["
+        "text" : ": "
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completionACySayqd__GGAI_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAIRszAA013ExpressibleByA0Rd__lufc7ElementL_qd__mfp",
-        "text" : "Element"
+        "preciseIdentifier" : "s:Sa",
+        "text" : "Array"
       },
       {
         "kind" : "text",
-        "text" : "], "
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completionACySayqd__GGAI_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAIRszAA013ExpressibleByA0Rd__lufc1TL_qd__mfp",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ">, "
       },
       {
         "kind" : "externalParam",
@@ -164,7 +173,7 @@
             },
             {
               "kind" : "genericParameter",
-              "text" : "Element"
+              "text" : "T"
             },
             {
               "kind" : "text",
@@ -176,16 +185,25 @@
             },
             {
               "kind" : "text",
-              "text" : ": ["
+              "text" : ": "
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completionACySayqd__GGAI_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAIRszAA013ExpressibleByA0Rd__lufc7ElementL_qd__mfp",
-              "text" : "Element"
+              "preciseIdentifier" : "s:Sa",
+              "text" : "Array"
             },
             {
               "kind" : "text",
-              "text" : "], "
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completionACySayqd__GGAI_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAIRszAA013ExpressibleByA0Rd__lufc1TL_qd__mfp",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : ">, "
             },
             {
               "kind" : "externalParam",
@@ -294,7 +312,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "Element"
+              "text" : "T"
             },
             {
               "kind" : "text",
@@ -302,7 +320,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "Element"
+              "text" : "T"
             },
             {
               "kind" : "text",
@@ -704,7 +722,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -790,7 +808,15 @@
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:transform:)-74hnp": {
   "abstract" : [
     {
-      "text" : "Creates an array property with no default value that reads its values from zero or more labeled options, parsing each element with the given closure.",
+      "text" : "Creates an array property with no default value that reads its values from",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "zero or more labeled options, parsing each element with the given closure.",
       "type" : "text"
     }
   ],
@@ -805,7 +831,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -906,8 +932,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser6OptionV4name7parsing4help10completion9transformACySayqd__GGAA17NameSpecificationV_AA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAIRszlufc7ElementL_qd__mfp",
-      "text" : "Element"
+      "preciseIdentifier" : "s:14ArgumentParser6OptionV4name7parsing4help10completion9transformACySayqd__GGAA17NameSpecificationV_AA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAIRszlufc1TL_qd__mfp",
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -948,7 +974,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -960,16 +986,25 @@
     },
     {
       "kind" : "text",
-      "text" : ": ["
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completionACySayqd__GGAI_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAIRszAA013ExpressibleByA0Rd__lufc7ElementL_qd__mfp",
-      "text" : "Element"
+      "preciseIdentifier" : "s:Sa",
+      "text" : "Array"
     },
     {
       "kind" : "text",
-      "text" : "], "
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completionACySayqd__GGAI_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgtcAIRszAA013ExpressibleByA0Rd__lufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
     },
     {
       "kind" : "externalParam",
@@ -1074,7 +1109,7 @@
     },
     {
       "kind" : "genericParameter",
-      "text" : "Element"
+      "text" : "T"
     },
     {
       "kind" : "text",
@@ -1086,16 +1121,25 @@
     },
     {
       "kind" : "text",
-      "text" : ": ["
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completion9transformACySayqd__GGAJ_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAJRszlufc7ElementL_qd__mfp",
-      "text" : "Element"
+      "preciseIdentifier" : "s:Sa",
+      "text" : "Array"
     },
     {
       "kind" : "text",
-      "text" : "], "
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completion9transformACySayqd__GGAJ_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAJRszlufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
     },
     {
       "kind" : "externalParam",
@@ -1192,8 +1236,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completion9transformACySayqd__GGAJ_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAJRszlufc7ElementL_qd__mfp",
-      "text" : "Element"
+      "preciseIdentifier" : "s:14ArgumentParser6OptionV12wrappedValue4name7parsing4help10completion9transformACySayqd__GGAJ_AA17NameSpecificationVAA20ArrayParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAJRszlufc1TL_qd__mfp",
+      "text" : "T"
     },
     {
       "kind" : "text",

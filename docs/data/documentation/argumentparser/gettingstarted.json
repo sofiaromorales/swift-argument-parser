@@ -126,10 +126,10 @@
             "let package = Package(",
             "    name: \"Count\",",
             "    dependencies: [",
-            "        .package(url: \"https:\/\/github.com\/apple\/swift-argument-parser.git\", from: \"1.0.0\"),",
+            "        .package(url: \"https:\/\/github.com\/apple\/swift-argument-parser.git\", from: \"1.2.0\"),",
             "    ],",
             "    targets: [",
-            "        .target(",
+            "        .executableTarget(",
             "            name: \"count\",",
             "            dependencies: [.product(name: \"ArgumentParser\", package: \"swift-argument-parser\")]),",
             "    ]",
@@ -276,7 +276,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "We’ve implemented the command’s logic in its ",
+              "text" : "The command’s logic is implemented in its ",
               "type" : "text"
             },
             {
@@ -284,7 +284,7 @@
               "type" : "codeVoice"
             },
             {
-              "text" : " method. Here, we’re printing out a message confirming the names of the files the user gave. (You can find a full implementation of the completed command at the end of this guide.)",
+              "text" : " method. Here, it prints out a message confirming the names of the files the user gave. (You can find a full implementation of the completed command at the end of this guide.)",
               "type" : "text"
             }
           ],
@@ -293,7 +293,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "Finally, you designate the ",
+              "text" : "Finally, the ",
               "type" : "text"
             },
             {
@@ -301,7 +301,7 @@
               "type" : "codeVoice"
             },
             {
-              "text" : " command as the program’s entry point by applying the ",
+              "text" : " command is designated as the program’s entry point by applying the ",
               "type" : "text"
             },
             {
@@ -338,6 +338,62 @@
             }
           ],
           "type" : "paragraph"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The Swift compiler uses either the type marked with ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "@main",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " or a ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "main.swift",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " file as the entry point for an executable program. You can use either one, but not both — rename your ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "main.swift",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " file to the name of the command when you add ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "@main",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ". In this case, rename the file to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "Count.swift",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Note",
+          "style" : "note",
+          "type" : "aside"
         },
         {
           "anchor" : "Working-with-Named-Options",
@@ -397,6 +453,7 @@
         },
         {
           "code" : [
+            "@main",
             "struct Count: ParsableCommand {",
             "    @Option var inputFile: String",
             "    @Option var outputFile: String",
@@ -532,6 +589,7 @@
         },
         {
           "code" : [
+            "@main",
             "struct Count: ParsableCommand {",
             "    @Option var inputFile: String",
             "    @Option var outputFile: String",
@@ -671,6 +729,7 @@
         },
         {
           "code" : [
+            "@main",
             "struct Count: ParsableCommand {",
             "    @Option(name: [.short, .customLong(\"input\")])",
             "    var inputFile: String",
@@ -820,6 +879,7 @@
         },
         {
           "code" : [
+            "@main",
             "struct Count: ParsableCommand {",
             "    @Option(name: [.short, .customLong(\"input\")], help: \"A file to read.\")",
             "    var inputFile: String",

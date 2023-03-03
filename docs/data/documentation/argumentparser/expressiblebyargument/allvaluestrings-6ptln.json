@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "An array of all possible strings to that can convert to value of this",
+      "text" : "An array of all possible strings that can convert to a value of this",
       "type" : "text"
     },
     {
@@ -261,7 +261,7 @@
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/ExpressibleByArgument/allValueStrings-6ptln": {
   "abstract" : [
     {
-      "text" : "An array of all possible strings to that can convert to value of this",
+      "text" : "An array of all possible strings that can convert to a value of this",
       "type" : "text"
     },
     {
@@ -351,7 +351,7 @@
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/ExpressibleByArgument/allValueStrings-7hjo7": {
   "abstract" : [
     {
-      "text" : "An array of all possible strings to that can convert to value of this",
+      "text" : "An array of all possible strings that can convert to a value of this",
       "type" : "text"
     },
     {

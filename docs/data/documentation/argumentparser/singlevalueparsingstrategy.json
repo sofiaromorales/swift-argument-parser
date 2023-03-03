@@ -111,10 +111,9 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-4yske",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-7slrf",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-2wf44",
-        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku",
+        "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-25g7b",
         "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-2llve"
       ],
       "title" : "Single Options"
@@ -210,131 +209,6 @@
   "title" : "Option",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/option"
-},
-"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:)-4yske": {
-  "abstract" : [
-    {
-      "text" : "Creates a property with no default value.",
-      "type" : "text"
-    }
-  ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "Value",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " conforms to ",
-        "type" : "text"
-      },
-      {
-        "code" : "ExpressibleByArgument",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "name"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
-      "text" : "NameSpecification"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "parsing"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
-      "text" : "SingleValueParsingStrategy"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "help"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
-      "text" : "ArgumentHelp"
-    },
-    {
-      "kind" : "text",
-      "text" : "?, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "completion"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
-      "text" : "CompletionKind"
-    },
-    {
-      "kind" : "text",
-      "text" : "?)"
-    }
-  ],
-  "graphRepresentation" : "",
-  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-4yske",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init(name:parsing:help:completion:)",
-  "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:)-4yske"
 },
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:)-7slrf": {
   "abstract" : [
@@ -437,10 +311,145 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:)-7slrf"
 },
-"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:transform:)-2wf44": {
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:transform:)-25g7b": {
   "abstract" : [
     {
       "text" : "Creates a property with no default value, parsing with the given closure.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
+      "text" : "SingleValueParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "transform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser6OptionV4name7parsing4help10completion9transformACyqd__SgGAA17NameSpecificationV_AA26SingleValueParsingStrategyVAA0A4HelpVSgAA14CompletionKindVSgqd__SSKctcAIRszlufc1TL_qd__mfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "graphRepresentation" : "",
+  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-25g7b",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:parsing:help:completion:transform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:transform:)-25g7b"
+},
+"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:transform:)-2wf44": {
+  "abstract" : [
+    {
+      "text" : "Creates a property with no default value.",
       "type" : "text"
     }
   ],
@@ -564,152 +573,10 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:transform:)-2wf44"
 },
-"doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:)-7ilku": {
-  "abstract" : [
-    {
-      "text" : "Creates a property with a default value provided by standard Swift default value syntax.",
-      "type" : "text"
-    }
-  ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "Value",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " conforms to ",
-        "type" : "text"
-      },
-      {
-        "code" : "ExpressibleByArgument",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "wrappedValue"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser6OptionVA2A013ExpressibleByA0RzlE5Valuexmfp",
-      "text" : "Value"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "name"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
-      "text" : "NameSpecification"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "parsing"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
-      "text" : "SingleValueParsingStrategy"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "help"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
-      "text" : "ArgumentHelp"
-    },
-    {
-      "kind" : "text",
-      "text" : "?, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "completion"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
-      "text" : "CompletionKind"
-    },
-    {
-      "kind" : "text",
-      "text" : "?)"
-    }
-  ],
-  "graphRepresentation" : "",
-  "identifier" : "doc:\/\/org.swift.ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init(wrappedValue:name:parsing:help:completion:)",
-  "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-7ilku"
-},
 "doc://org.swift.ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:transform:)-2llve": {
   "abstract" : [
     {
-      "text" : "Creates a property with a default value provided by standard Swift default value syntax, parsing with the given closure.",
+      "text" : "Creates a property with a default value provided by standard Swift default value syntax.",
       "type" : "text"
     }
   ],
